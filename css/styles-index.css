@@ -1,0 +1,47 @@
+/*Main*/
+body {
+    padding-bottom: 100px;
+}
+
+#info-cont {
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+
+#info {
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#btn-find {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: 0;
+    transition-duration: .2s;
+}
+
+#btn-find:hover {
+    background-color: gray;
+    padding: 10px 15px 10px 15px;
+    margin-top: 5px;
+    margin-left: 95px;
+}
+
+.other-info {
+    display: inline-block;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+/*Main*/

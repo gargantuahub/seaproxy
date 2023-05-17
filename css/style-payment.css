@@ -1,0 +1,11 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 200px auto;
+    width:1000px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}

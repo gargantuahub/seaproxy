@@ -1,0 +1,43 @@
+#main {
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#main > div {
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#main > div > span:first-child {
+    display: table;
+    margin: 0 auto;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+#long {
+    width: 80%;
+}
+
+#main > div > span:last-child {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}

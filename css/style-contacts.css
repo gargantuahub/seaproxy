@@ -1,0 +1,30 @@
+#main {
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 900px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+#main > div > span {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+
+}
+
+#main div span:last-child {
+    color: antiquewhite;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+#main div span:last-child:hover {
+    color: gray;
+}
